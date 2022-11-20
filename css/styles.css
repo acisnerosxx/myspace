@@ -31,7 +31,41 @@ body {
     padding-right: 3px;
 }
 
+.header-links a:hover{
+    text-decoration: underline;
+}
+
 .header-links a:last-child {
     border-right: none;
     padding-right: none;
+}
+
+/* Navigation */
+
+.nav {
+    background-color: #60A5FA;
+    padding:3.5px 16px 5.5px 16px;
+    display:flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    border-right: solid 1.5px #fff;
+    padding: 0px 5px;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color:#040c5c;
+}
+
+.nav-link:active {
+    font-weight:bold;
+}
+
+#art-link {
+    color:#ffff33;
 }
