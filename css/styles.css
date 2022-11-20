@@ -1,0 +1,37 @@
+/* Global */
+body {
+    font-family: verdana;
+}
+
+
+
+/* Header */
+
+#header {
+    display: flex;
+    background-color: #1D4ED8;
+    justify-content: space-between;
+    padding: 15px 10px 14px 10px;
+    font-size: max(72%, 12px);
+}
+
+.search-form label {
+    color: #fff;
+}
+
+.logo {
+    width: 165px;
+    height: 42px;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    border-right: solid 1.5px #fff;
+    padding-right: 3px;
+}
+
+.header-links a:last-child {
+    border-right: none;
+    padding-right: none;
+}
